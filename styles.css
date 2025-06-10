@@ -2,4 +2,20 @@ html, body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: rgb(4, 23, 41);
+}
+
+#container {
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cell {
+    background-color: rgb(5, 31, 55);
+    border: 2px solid white;
+    height: 50px;
+    width: 6%;
 }
